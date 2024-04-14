@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FastEndpoints/5.21.2": {
+        "type": "package",
+        "dependencies": {
+          "FastEndpoints.Attributes": "5.21.2",
+          "FastEndpoints.Messaging.Core": "5.21.2",
+          "FluentValidation": "11.9.0"
+        },
+        "compile": {
+          "lib/net8.0/FastEndpoints.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FastEndpoints.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FastEndpoints.Attributes/5.21.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FastEndpoints.Attributes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FastEndpoints.Attributes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FastEndpoints.Messaging.Core/5.21.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FastEndpoints/5.21.2": {
+      "sha512": "RWiTfQGHy4QLibIpI2nJZ5FltmfB27CV2ZJdHUeN5sEZ3OcinP0JUsatRPDEYQIg03T4dbeWv/NgzNVSwG9d6Q==",
+      "type": "package",
+      "path": "fastendpoints/5.21.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fastendpoints.5.21.2.nupkg.sha512",
+        "fastendpoints.nuspec",
+        "icon.png",
+        "lib/net6.0/FastEndpoints.dll",
+        "lib/net6.0/FastEndpoints.xml",
+        "lib/net7.0/FastEndpoints.dll",
+        "lib/net7.0/FastEndpoints.xml",
+        "lib/net8.0/FastEndpoints.dll",
+        "lib/net8.0/FastEndpoints.xml"
+      ]
+    },
+    "FastEndpoints.Attributes/5.21.2": {
+      "sha512": "/wvEjOgX+odAijiudfZvsizFIiJQ58MtlU3+3ehFbYLM8EJfySxhLs7FcxQ2t0jjVKmUfFX7++JIA0OtouFW8w==",
+      "type": "package",
+      "path": "fastendpoints.attributes/5.21.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastendpoints.attributes.5.21.2.nupkg.sha512",
+        "fastendpoints.attributes.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/FastEndpoints.Attributes.dll",
+        "lib/netstandard2.0/FastEndpoints.Attributes.xml"
+      ]
+    },
+    "FastEndpoints.Messaging.Core/5.21.2": {
+      "sha512": "TFsoHdSWQrJEa5R5FFuecVrnsI5L2oc7JRtD1SaF4L7heKO5Eyv3mbGBvtk2n1HFI7gjXjHz1OnCwu7RmqJdyg==",
+      "type": "package",
+      "path": "fastendpoints.messaging.core/5.21.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fastendpoints.messaging.core.5.21.2.nupkg.sha512",
+        "fastendpoints.messaging.core.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/FastEndpoints.Messaging.Core.dll",
+        "lib/netstandard2.1/FastEndpoints.Messaging.Core.xml"
+      ]
+    },
+    "FluentValidation/11.9.0": {
+      "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FastEndpoints >= 5.21.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+      "projectName": "RiverBooks.Books",
+      "projectPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+      "packagesPath": "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DiegoRomario-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "FastEndpoints": {
+            "target": "Package",
+            "version": "[5.21.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
