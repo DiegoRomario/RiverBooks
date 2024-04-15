@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Web\\RiverBooks.Web.csproj": {}
+    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "projectUniqueName": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
         "projectName": "RiverBooks.Books",
-        "projectPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
         "packagesPath": "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\obj\\",
+        "outputPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DiegoRomario-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,6 +32,7 @@
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -46,9 +47,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
             "FastEndpoints": {
               "target": "Package",
               "version": "[5.21.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
@@ -74,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Web\\RiverBooks.Web.csproj": {
+    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Web\\RiverBooks.Web.csproj",
+        "projectUniqueName": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.csproj",
         "projectName": "RiverBooks.Web",
-        "projectPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Web\\RiverBooks.Web.csproj",
+        "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.csproj",
         "packagesPath": "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Web\\obj\\",
+        "outputPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DiegoRomario-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,13 +112,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
-                "projectPath": "C:\\Users\\DiegoRomario-PC\\Downloads\\after\\src\\RiverBooks.Books\\RiverBooks.Books.csproj"
+              "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+                "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj"
               }
             }
           }
         },
         "warningProperties": {
+          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -125,6 +139,12 @@
               "version": "[5.21.2, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.1, )"
             },
