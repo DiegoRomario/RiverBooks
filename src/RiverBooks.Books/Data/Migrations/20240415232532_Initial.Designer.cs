@@ -12,7 +12,7 @@ using RiverBooks.Books;
 namespace RiverBooks.Books.Data.Migrations
 {
     [DbContext(typeof(BookDbContext))]
-    [Migration("20240128213126_Initial")]
+    [Migration("20240415232532_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

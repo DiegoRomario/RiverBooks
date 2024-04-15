@@ -3,32 +3,8 @@
   "WorkspaceRootPath": "C:\\development\\repositories\\RiverBooks\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.books\\listbooksendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\listbooksendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.books\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.books\\bookserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\bookserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.books\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.books\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FF51A9DF-E0E7-4E19-B0D4-0AB127BBC523}|RiverBooks.Books\\RiverBooks.Books.csproj|solutionrelative:riverbooks.books\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D6FF091-73F1-45B0-8C05-5B8A7C15059B}|RiverBooks.Web\\RiverBooks.Web.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{4D6FF091-73F1-45B0-8C05-5B8A7C15059B}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D6FF091-73F1-45B0-8C05-5B8A7C15059B}|RiverBooks.Web\\RiverBooks.Web.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6FF091-73F1-45B0-8C05-5B8A7C15059B}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BookDto.cs",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\BookDto.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\BookDto.cs",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\BookDto.cs",
-              "RelativeToolTip": "RiverBooks.Books\\BookDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T22:12:53.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "RiverBooks.Web.http",
               "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.http",
               "RelativeDocumentMoniker": "RiverBooks.Web\\RiverBooks.Web.http",
               "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.http",
               "RelativeToolTip": "RiverBooks.Web\\RiverBooks.Web.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-15T22:12:45.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookServiceExtensions.cs",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\BookServiceExtensions.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\BookServiceExtensions.cs",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\BookServiceExtensions.cs",
-              "RelativeToolTip": "RiverBooks.Books\\BookServiceExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T22:12:45.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\BookService.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\BookService.cs",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\BookService.cs",
-              "RelativeToolTip": "RiverBooks.Books\\BookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T22:12:45.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\IBookService.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\IBookService.cs",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\IBookService.cs",
-              "RelativeToolTip": "RiverBooks.Books\\IBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T22:12:45.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\Program.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Web\\Program.cs",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\Program.cs",
-              "RelativeToolTip": "RiverBooks.Web\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T22:12:45.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ListBooksEndpoint.cs",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\ListBooksEndpoint.cs",
-              "RelativeDocumentMoniker": "RiverBooks.Books\\ListBooksEndpoint.cs",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\ListBooksEndpoint.cs",
-              "RelativeToolTip": "RiverBooks.Books\\ListBooksEndpoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T22:12:45.174Z",
+              "WhenOpened": "2024-04-15T23:26:51.32Z",
               "EditorCaption": ""
             }
           ]
