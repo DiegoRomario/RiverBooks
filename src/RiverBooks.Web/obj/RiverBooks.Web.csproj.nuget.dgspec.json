@@ -4,14 +4,14 @@
     "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.csproj": {}
   },
   "projects": {
-    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
-        "projectName": "RiverBooks.Books",
-        "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "projectUniqueName": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj",
+        "projectName": "RiverBooks.Books.Contracts",
+        "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj",
         "packagesPath": "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\obj\\",
+        "outputPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DiegoRomario-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,19 +47,222 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "projectName": "RiverBooks.Books",
+        "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj",
+        "packagesPath": "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DiegoRomario-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj": {
+                "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "Ardalis.GuardClauses": {
               "target": "Package",
               "version": "[4.4.0, )"
             },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "FastEndpoints": {
               "target": "Package",
-              "version": "[5.21.2, )"
+              "version": "[5.22.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj",
+        "projectName": "RiverBooks.Users",
+        "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj",
+        "packagesPath": "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DiegoRomario-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj": {
+                "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books.Contracts\\RiverBooks.Books.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.22.0, )"
+            },
+            "FastEndpoints.Security": {
+              "target": "Package",
+              "version": "[5.22.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.1, )"
             }
@@ -114,6 +317,9 @@
             "projectReferences": {
               "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
                 "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj"
+              },
+              "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj": {
+                "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj"
               }
             }
           }
@@ -136,7 +342,19 @@
           "dependencies": {
             "FastEndpoints": {
               "target": "Package",
-              "version": "[5.21.2, )"
+              "version": "[5.22.0, )"
+            },
+            "FastEndpoints.Security": {
+              "target": "Package",
+              "version": "[5.22.0, )"
+            },
+            "FastEndpoints.Swagger": {
+              "target": "Package",
+              "version": "[5.22.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -145,6 +363,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[8.0.1, )"
             },

@@ -1,6 +1,90 @@
-@RiverBooks.Web_HostAddress = http://localhost:5125
+@RiverBooks.Web_HostAddress = https://localhost:7179
 
 GET {{RiverBooks.Web_HostAddress}}/books
 Accept: application/json
+
+###
+
+@BookID=a89f6cd7-4693-457b-9009-02205dbbfe45
+GET {{RiverBooks.Web_HostAddress}}/books/{{BookID}}
+Accept: application/json
+
+###
+
+POST {{RiverBooks.Web_HostAddress}}/books
+Accept: application/json
+Content-Type: application/json
+
+{
+  "id": "b89f6cd7-4693-457b-9009-02205dbbfe45",
+  "title": "Modular Monoliths - Getting Started",
+  "author": "Steve Smith",
+  "price": 29.99
+}
+
+###
+
+# Test the location header
+GET {{RiverBooks.Web_HostAddress}}/books/b89f6cd7-4693-457b-9009-02205dbbfe45
+Accept: application/json
+
+###
+
+DELETE {{RiverBooks.Web_HostAddress}}/books/b89f6cd7-4693-457b-9009-02205dbbfe45
+Accept: application/json
+
+###
+
+POST {{RiverBooks.Web_HostAddress}}/books/b89f6cd7-4693-457b-9009-02205dbbfe45/pricehistory
+Accept: application/json
+Content-Type: application/json
+
+{
+  "newPrice": -9.99
+}
+
+###
+
+POST {{RiverBooks.Web_HostAddress}}/users
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email":"steve@test.com",
+  "password":"Pass@word1"
+}
+
+###
+
+POST {{RiverBooks.Web_HostAddress}}/users/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email":"steve@test.com",
+  "password":"Pass@word1"
+}
+
+###
+
+@token=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbEFkZHJlc3MiOiJzdGV2ZUB0ZXN0LmNvbSIsImlhdCI6MTcwNjkxMTUxOSwiZXhwIjoxNzA2OTE1MTE5LCJuYmYiOjE3MDY5MTE1MTl9.3USOZI5sIjILE2le4U_4tuphlq0L4sWOV570gVnWPhw
+
+# Add item to cart
+POST {{RiverBooks.Web_HostAddress}}/cart
+Accept: text/plain
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "bookId":"a89f6cd7-4693-457b-9009-02205dbbfe45",
+  "quantity":1
+}
+
+###
+
+# List items in cart
+GET {{RiverBooks.Web_HostAddress}}/cart
+Accept: application/json
+Authorization: Bearer {{token}}
 
 ###

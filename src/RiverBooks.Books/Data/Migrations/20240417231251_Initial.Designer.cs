@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using RiverBooks.Books;
+using RiverBooks.Books.Data;
 
 #nullable disable
 
 namespace RiverBooks.Books.Data.Migrations
 {
     [DbContext(typeof(BookDbContext))]
-    [Migration("20240415232532_Initial")]
+    [Migration("20240417231251_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

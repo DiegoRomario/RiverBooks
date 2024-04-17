@@ -482,3 +482,13 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+src/RiverBooks.Books/obj/
+src/RiverBooks.Books/bin/
+src/RiverBooks.Books.Contracts/obj/
+src/RiverBooks.Books.Contracts/bin/
+src/RiverBooks.Books.Tests/obj/
+src/RiverBooks.Books.Tests/bin/
+src/RiverBooks.Users/obj/
+src/RiverBooks.Users/bin/
+src/RiverBooks.Web/obj/
+src/RiverBooks.Web/bin/

@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\development\\repositories\\RiverBooks\\src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{4D6FF091-73F1-45B0-8C05-5B8A7C15059B}|RiverBooks.Web\\RiverBooks.Web.csproj|c:\\development\\repositories\\riverbooks\\src\\riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{4D6FF091-73F1-45B0-8C05-5B8A7C15059B}|RiverBooks.Web\\RiverBooks.Web.csproj|solutionrelative:riverbooks.web\\riverbooks.web.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RiverBooks.Web.http",
-              "DocumentMoniker": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.http",
-              "RelativeDocumentMoniker": "RiverBooks.Web\\RiverBooks.Web.http",
-              "ToolTip": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.http",
-              "RelativeToolTip": "RiverBooks.Web\\RiverBooks.Web.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-04-15T23:26:51.32Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
