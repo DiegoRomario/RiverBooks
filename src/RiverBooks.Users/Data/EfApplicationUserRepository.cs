@@ -2,6 +2,7 @@
 
 namespace RiverBooks.Users.Data;
 
+
 internal class EfApplicationUserRepository : IApplicationUserRepository
 {
   private readonly UsersDbContext _dbContext;
@@ -9,6 +10,14 @@ internal class EfApplicationUserRepository : IApplicationUserRepository
   public EfApplicationUserRepository(UsersDbContext dbContext)
   {
     _dbContext = dbContext;
+  }
+
+  public Task<ApplicationUser> GetUserWithAddressesByEmailAsync(string email)
+  {
+    return _dbContext.ApplicationUsers
+      .Include(user => user.Addresses)
+      .SingleAsync(user => user.Email == email);
+
   }
 
   public Task<ApplicationUser> GetUserWithCartByEmailAsync(string email)

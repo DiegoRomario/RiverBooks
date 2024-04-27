@@ -2,7 +2,7 @@
 using MediatR;
 using RiverBooks.Users.CartEndpoints;
 
-namespace RiverBooks.Users.UseCases;
+namespace RiverBooks.Users.UseCases.Cart.ListItems;
 
 internal class ListCartItemsQueryHandler : IRequestHandler<ListCartItemsQuery,
   Result<List<CartItemDto>>>
@@ -18,13 +18,13 @@ internal class ListCartItemsQueryHandler : IRequestHandler<ListCartItemsQuery,
   {
     var user = await _userRepository.GetUserWithCartByEmailAsync(request.EmailAddress);
 
-    if (user is null) 
+    if (user is null)
     {
       return Result.Unauthorized();
     }
 
     return user.CartItems
-      .Select(item => new CartItemDto(item.Id, item.BookId, 
+      .Select(item => new CartItemDto(item.Id, item.BookId,
       item.Description, item.Quantity, item.UnitPrice))
       .ToList();
   }

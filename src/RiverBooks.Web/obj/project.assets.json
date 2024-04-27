@@ -1483,6 +1483,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Pipelines.Sockets.Unofficial/2.2.8": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Serilog/3.1.1": {
         "type": "package",
         "compile": {
@@ -1640,6 +1656,23 @@
         "runtime": {
           "lib/net5.0/Serilog.Sinks.File.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "StackExchange.Redis/2.7.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Pipelines.Sockets.Unofficial": "2.2.8"
+        },
+        "compile": {
+          "lib/net6.0/StackExchange.Redis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/StackExchange.Redis.dll": {
+            "related": ".xml"
           }
         }
       },
@@ -2019,7 +2052,7 @@
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -2681,6 +2714,46 @@
           "bin/placeholder/RiverBooks.Books.Contracts.dll": {}
         }
       },
+      "RiverBooks.OrderProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.GuardClauses": "4.4.0",
+          "Ardalis.Result": "7.2.0",
+          "FastEndpoints": "5.22.0",
+          "FastEndpoints.Security": "5.22.0",
+          "MediatR": "12.2.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.1",
+          "Microsoft.EntityFrameworkCore": "8.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+          "RiverBooks.OrderProcessing.Contracts": "1.0.0",
+          "RiverBooks.Users.Contracts": "1.0.0",
+          "Serilog.AspNetCore": "8.0.1",
+          "StackExchange.Redis": "2.7.17"
+        },
+        "compile": {
+          "bin/placeholder/RiverBooks.OrderProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RiverBooks.OrderProcessing.dll": {}
+        }
+      },
+      "RiverBooks.OrderProcessing.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.Result": "7.2.0",
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/RiverBooks.OrderProcessing.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RiverBooks.OrderProcessing.Contracts.dll": {}
+        }
+      },
       "RiverBooks.Users/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2696,6 +2769,8 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
           "RiverBooks.Books.Contracts": "1.0.0",
+          "RiverBooks.OrderProcessing.Contracts": "1.0.0",
+          "RiverBooks.Users.Contracts": "1.0.0",
           "Serilog.AspNetCore": "8.0.1"
         },
         "compile": {
@@ -2707,6 +2782,20 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "RiverBooks.Users.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ardalis.Result": "7.2.0",
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/RiverBooks.Users.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RiverBooks.Users.Contracts.dll": {}
+        }
       }
     }
   },
@@ -4998,6 +5087,29 @@
         "nswag.generation.aspnetcore.nuspec"
       ]
     },
+    "Pipelines.Sockets.Unofficial/2.2.8": {
+      "sha512": "zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
+      "type": "package",
+      "path": "pipelines.sockets.unofficial/2.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Pipelines.Sockets.Unofficial.dll",
+        "lib/net461/Pipelines.Sockets.Unofficial.xml",
+        "lib/net472/Pipelines.Sockets.Unofficial.dll",
+        "lib/net472/Pipelines.Sockets.Unofficial.xml",
+        "lib/net5.0/Pipelines.Sockets.Unofficial.dll",
+        "lib/net5.0/Pipelines.Sockets.Unofficial.xml",
+        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.dll",
+        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.xml",
+        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll",
+        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.xml",
+        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll",
+        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.xml",
+        "pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+        "pipelines.sockets.unofficial.nuspec"
+      ]
+    },
     "Serilog/3.1.1": {
       "sha512": "P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
       "type": "package",
@@ -5218,6 +5330,27 @@
         "lib/netstandard2.1/Serilog.Sinks.File.xml",
         "serilog.sinks.file.5.0.0.nupkg.sha512",
         "serilog.sinks.file.nuspec"
+      ]
+    },
+    "StackExchange.Redis/2.7.17": {
+      "sha512": "PduekHww3CrCBr1ebIPX4k4zdah9wjJ4AQZXfp+JfGJQfwf8s1SHSY7kthDi9MP0ULcYrNw4xnbRXFMbCryIig==",
+      "type": "package",
+      "path": "stackexchange.redis/2.7.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/StackExchange.Redis.dll",
+        "lib/net461/StackExchange.Redis.xml",
+        "lib/net472/StackExchange.Redis.dll",
+        "lib/net472/StackExchange.Redis.xml",
+        "lib/net6.0/StackExchange.Redis.dll",
+        "lib/net6.0/StackExchange.Redis.xml",
+        "lib/netcoreapp3.1/StackExchange.Redis.dll",
+        "lib/netcoreapp3.1/StackExchange.Redis.xml",
+        "lib/netstandard2.0/StackExchange.Redis.dll",
+        "lib/netstandard2.0/StackExchange.Redis.xml",
+        "stackexchange.redis.2.7.17.nupkg.sha512",
+        "stackexchange.redis.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.4.0": {
@@ -7836,10 +7969,25 @@
       "path": "../RiverBooks.Books.Contracts/RiverBooks.Books.Contracts.csproj",
       "msbuildProject": "../RiverBooks.Books.Contracts/RiverBooks.Books.Contracts.csproj"
     },
+    "RiverBooks.OrderProcessing/1.0.0": {
+      "type": "project",
+      "path": "../RiverBooks.OrderProcessing/RiverBooks.OrderProcessing.csproj",
+      "msbuildProject": "../RiverBooks.OrderProcessing/RiverBooks.OrderProcessing.csproj"
+    },
+    "RiverBooks.OrderProcessing.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing.Contracts/RiverBooks.OrderProcessing.Contracts.csproj",
+      "msbuildProject": "../OrderProcessing.Contracts/RiverBooks.OrderProcessing.Contracts.csproj"
+    },
     "RiverBooks.Users/1.0.0": {
       "type": "project",
       "path": "../RiverBooks.Users/RiverBooks.Users.csproj",
       "msbuildProject": "../RiverBooks.Users/RiverBooks.Users.csproj"
+    },
+    "RiverBooks.Users.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../RiverBooks.Users.Contracts/RiverBooks.Users.Contracts.csproj",
+      "msbuildProject": "../RiverBooks.Users.Contracts/RiverBooks.Users.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7851,6 +7999,7 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.1",
       "RiverBooks.Books >= 1.0.0",
+      "RiverBooks.OrderProcessing >= 1.0.0",
       "RiverBooks.Users >= 1.0.0",
       "Serilog.AspNetCore >= 8.0.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -7886,6 +8035,9 @@
           "projectReferences": {
             "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj": {
               "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Books\\RiverBooks.Books.csproj"
+            },
+            "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.OrderProcessing\\RiverBooks.OrderProcessing.csproj": {
+              "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.OrderProcessing\\RiverBooks.OrderProcessing.csproj"
             },
             "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj": {
               "projectPath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Users\\RiverBooks.Users.csproj"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ntbLWy+vNDc=",
+  "dgSpecHash": "wYtjn1FbqpI=",
   "success": true,
   "projectFilePath": "C:\\development\\repositories\\RiverBooks\\src\\RiverBooks.Web\\RiverBooks.Web.csproj",
   "expectedPackageFiles": [
@@ -81,6 +81,7 @@
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\nswag.core.yaml\\14.0.2\\nswag.core.yaml.14.0.2.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\nswag.generation\\14.0.2\\nswag.generation.14.0.2.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\nswag.generation.aspnetcore\\14.0.2\\nswag.generation.aspnetcore.14.0.2.nupkg.sha512",
+    "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",
@@ -90,6 +91,7 @@
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
+    "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\stackexchange.redis\\2.7.17\\stackexchange.redis.2.7.17.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\DiegoRomario-PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
