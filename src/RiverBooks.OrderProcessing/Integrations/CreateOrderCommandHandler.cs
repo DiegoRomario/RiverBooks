@@ -2,6 +2,8 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 using OrderProcessing.Contracts;
+using RiverBooks.OrderProcessing.Domain;
+using RiverBooks.OrderProcessing.Interfaces;
 
 namespace RiverBooks.OrderProcessing.Integrations;
 internal class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand,
@@ -29,15 +31,9 @@ internal class CreateOrderCommandHandler : IRequestHandler<CreateOrderCommand,
     var shippingAddress = await _addressCache.GetByIdAsync(request.ShippingAddressId);
     var billingAddress = await _addressCache.GetByIdAsync(request.BillingAddressId);
 
-    if (shippingAddress.Value == null || billingAddress.Value == null)
-    {
-      _logger.LogWarning("Shipping Address: {shippingAddress} and/or Billing Address: {billingAddress} not found", shippingAddress.Value, billingAddress.Value);
-      return Result.NotFound();
-    }
-
     var newOrder = Order.Factory.Create(request.UserId,
       shippingAddress.Value.Address,
-      billingAddress.Value.Address,
+      billingAddress.Value.Address, 
       items);
 
     await _orderRepository.AddAsync(newOrder);

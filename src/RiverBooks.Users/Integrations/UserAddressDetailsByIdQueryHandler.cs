@@ -1,9 +1,9 @@
 ﻿using Ardalis.Result;
 using MediatR;
 using RiverBooks.Users.Contracts;
+using RiverBooks.Users.Interfaces;
 
 namespace RiverBooks.Users.Integrations;
-
 internal class UserAddressDetailsByIdQueryHandler : 
   IRequestHandler<UserAddressDetailsByIdQuery, Result<UserAddressDetails>>
 {

@@ -3,11 +3,15 @@ using System.Reflection;
 using Ardalis.Result;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using RiverBooks.Books.Contracts;
+using RiverBooks.Users.Domain;
+using RiverBooks.Users.Interfaces;
 
 namespace RiverBooks.Users.UseCases.Cart.AddItem;
 
-public class AddItemToCartHandler : IRequestHandler<AddItemToCartCommand, Result>
+public class AddItemToCartHandler : IRequestHandler<AddItemToCartCommand, 
+  Result>
 {
   private readonly IApplicationUserRepository _userRepository;
   private readonly IMediator _mediator;
@@ -74,7 +78,8 @@ public class AddItemToCartHandler : IRequestHandler<AddItemToCartCommand, Result
 #nullable restore
   }
 
-  public async Task<Result> Handle(AddItemToCartCommand request, CancellationToken cancellationToken)
+  public async Task<Result> Handle(AddItemToCartCommand request, 
+    CancellationToken ct)
   {
     var user = await _userRepository.GetUserWithCartByEmailAsync(request.EmailAddress);
 
@@ -111,6 +116,7 @@ public class AddItemToCartHandler : IRequestHandler<AddItemToCartCommand, Result
     user.AddItemToCart(newCartItem);
 
     await _userRepository.SaveChangesAsync();
+
     return Result.Success();
   }
 }
