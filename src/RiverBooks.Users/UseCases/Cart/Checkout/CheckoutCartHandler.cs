@@ -5,7 +5,8 @@ using RiverBooks.Users.Interfaces;
 
 namespace RiverBooks.Users.UseCases.Cart.Checkout;
 
-internal class CheckoutCartHandler : IRequestHandler<CheckoutCartCommand, Result<Guid>>
+internal class CheckoutCartHandler : IRequestHandler<CheckoutCartCommand,
+  Result<Guid>>
 {
   private readonly IApplicationUserRepository _userRepository;
   private readonly IMediator _mediator;

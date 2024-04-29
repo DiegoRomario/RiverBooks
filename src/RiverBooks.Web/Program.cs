@@ -5,6 +5,7 @@ using FastEndpoints.Swagger;
 using RiverBooks.Books;
 using RiverBooks.EmailSending;
 using RiverBooks.OrderProcessing;
+using RiverBooks.Reporting;
 using RiverBooks.SharedKernel;
 using RiverBooks.Users;
 using RiverBooks.Users.UseCases.Cart.AddItem;
@@ -31,6 +32,7 @@ builder.Services.AddFastEndpoints()
 List<Assembly> mediatRAssemblies = [typeof(Program).Assembly];
 builder.Services.AddBookModuleServices(builder.Configuration, logger, mediatRAssemblies);
 builder.Services.AddEmailSendingModuleServices(builder.Configuration, logger, mediatRAssemblies);
+builder.Services.AddReportingModuleServices(builder.Configuration, logger, mediatRAssemblies);
 builder.Services.AddOrderProcessingModuleServices(builder.Configuration, logger, mediatRAssemblies);
 builder.Services.AddUserModuleServices(builder.Configuration, logger, mediatRAssemblies);
 
